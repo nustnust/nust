@@ -286,7 +286,7 @@ div.distance_label{
 input[type="radio"].tab_m12 + label.distance {
     display: inline-block;
     border: 2px solid #000; /* 枠線のスタイル */
-    padding: 0px 0px; /* ボタンのパディング */
+    padding: 3px 3px; /* ボタンのパディング */
     cursor: pointer;
     font-weight: bold;
     width: 40px;
@@ -294,8 +294,8 @@ input[type="radio"].tab_m12 + label.distance {
     font-size: 8px;
     background-color: rgb(205, 243, 243);
     text-align: center;
-    margin: 0px ;
-} 
+    margin:3px;
+    } 
 /* ラジオボタンが選択された際のスタイル */
 input[type="radio"].tab_m12:checked + label.distance {
     background-color: #a09c9c; /* 選択時の背景色 */
