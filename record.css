@@ -173,7 +173,7 @@ p.age{text-align: center;
 
 
 h1 {background-color: rgb(128, 183, 242);
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
@@ -208,7 +208,11 @@ ul {
     background-color: #4e4d4d; /* マウスホバー時の背景色 */
   }
 
-li {font-size: 10px;}
+li {font-size: 10px;
+    font-weight:bold;
+    text-align:center;
+   
+   }
  
 
 
