@@ -253,8 +253,8 @@ p.age{text-align: center;
         padding: 10px 10px; /* ボタンのパディング */
         cursor: pointer;
         font-weight: bold;
-        width: 23px;
-        height: 50px;
+        width: 30px;
+        height: 20px;
         font-size: 7px;
         background-color: aqua;
     } 
@@ -300,8 +300,8 @@ p.age{text-align: center;
     /* コンテンツサイズを変更 */
     .record_content{
         margin: 10px auto;
-        width:700px;
-        height: 300px;
+        width:300px;
+        height: px;
         padding: auto;
     }
     
