@@ -234,7 +234,7 @@ tr,td{border: 1px solid black;
 
     
 table.record{border-collapse: collapse;
-    width: 80%;
+    width: 100%;
     margin: 0 0;
     margin-top: 20px;
 }
@@ -264,7 +264,7 @@ input[type="radio"].tab_m11 + label.style {
 } 
 
 label.style{
-    padding-top:5px;
+    text
 }
 /* ラジオボタンが選択された際のスタイル */
 input[type="radio"].tab_m11:checked + label.style {
