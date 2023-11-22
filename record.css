@@ -252,7 +252,7 @@ input[type="radio"].tab_m11 {
 input[type="radio"].tab_m11 + label.style {
     display: inline-block;
     border: 2px solid #000; /* 枠線のスタイル */
-    padding: 10px 10px; /* ボタンのパディング */
+    padding: 0px 0px; /* ボタンのパディング */
     cursor: pointer;
     font-weight: bold;
     width: 45px;
@@ -282,7 +282,7 @@ div.distance_label{
 input[type="radio"].tab_m12 + label.distance {
     display: inline-block;
     border: 2px solid #000; /* 枠線のスタイル */
-    padding: 10px 10px; /* ボタンのパディング */
+    padding: 0px 0px; /* ボタンのパディング */
     cursor: pointer;
     font-weight: bold;
     width: 45px;
