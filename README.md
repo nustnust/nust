@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nust</title>
-    <link rel="stylesheet" href="./nust.css">
+    <link rel="stylesheet" href="NUST.css">
 </head>
 <body>
     <main>
@@ -31,8 +31,7 @@
             <img  class="meidai_pool" src="./picture/pool.jpg" alt="practice_place">    
 
             
-            <!-- <a class="twitter-timeline" href="https://twitter.com/101112hkt" data-tweet-limit="1">NUSTのX</a>
-         -->
+
         </div>
 
 
