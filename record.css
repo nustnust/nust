@@ -233,7 +233,7 @@ tr,td{border: 1px solid black;
 }
 table.record{border-collapse: collapse;
     width: 80%;
-    margin: 0 auto;
+    margin: 0 0;
     margin-top: 20px;
 }
 div.bottun{
@@ -289,7 +289,7 @@ input[type="radio"].tab_m12 + label.distance {
     font-size: 10px;
     background-color: rgb(205, 243, 243);
     text-align: center;
-    margin: 10px auto ;
+    margin: 10px 0 ;
 } 
 /* ラジオボタンが選択された際のスタイル */
 input[type="radio"].tab_m12:checked + label.distance {
@@ -300,7 +300,7 @@ input[type="radio"].tab_m12:checked + label.distance {
 
 /* コンテンツサイズを変更 */
 .record_content{
-    margin: 10px auto;
+    margin: 10px 0px;
     width:800px;
     height: 300px;
     padding: auto;
