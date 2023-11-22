@@ -207,18 +207,15 @@ ul {
   li a:hover {
     background-color: #4e4d4d; /* マウスホバー時の背景色 */
   }
-
-li {font-size: 10px;
-    font-weight:bold;
-    text-align:center;
+/* メニューバー内の文字 */
+li {font-size: 10px;} 
    
-   }
  
 
 
 
 h2 {
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
 }
 .standard_record{
@@ -230,9 +227,9 @@ h2 {
 
     
 tr,td{border: 1px solid black;
-    padding: 8px;
+    padding: 1px;
     text-align: center;
-    font-size:3px;
+    font-size:7px;
 }
 
     
@@ -263,6 +260,7 @@ input[type="radio"].tab_m11 + label.style {
     height: 40px;
     font-size: 8px;
     background-color: aqua;
+    margin: 0px;
 } 
 /* ラジオボタンが選択された際のスタイル */
 input[type="radio"].tab_m11:checked + label.style {
