@@ -300,7 +300,7 @@ p.age{text-align: center;
     /* コンテンツサイズを変更 */
     .record_content{
         margin: 10px auto;
-        width:300px;
+        width:100px;
         height: px;
         padding: auto;
     }
