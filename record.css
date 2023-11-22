@@ -329,7 +329,7 @@ p.age{text-align: center;
     font-weight: bold;
     text-decoration: underline;
     background-color: rgb(240, 209, 152);
-    font-size: 15px;
+    font-size: 10px;
 }
   
 /* 長水路と短水路を右左に分割する */
