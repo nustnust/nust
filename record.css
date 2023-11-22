@@ -253,7 +253,7 @@ input[type="radio"].tab_m11 {
 input[type="radio"].tab_m11 + label.style {
     display: inline-block;
     border: 2px solid #000; /* 枠線のスタイル */
-    padding: 0px 0px; /* ボタンのパディング */
+    padding: 0px; /* ボタンのパディング */
     cursor: pointer;
     font-weight: bold;
     width: 50px;
@@ -286,15 +286,17 @@ div.distance_label{
 input[type="radio"].tab_m12 + label.distance {
     display: inline-block;
     border: 2px solid #000; /* 枠線のスタイル */
-    padding: 3px 3px; /* ボタンのパディング */
+    padding: 0; /* ボタンのパディング */
+    margin-right:1px;               /* 右側*/  
+    margin-bottom:4px;               /* 下側*/     
     cursor: pointer;
     font-weight: bold;
     width: 40px;
     height: 30px;
-    font-size: 8px;
+    font-size: 10px;
     background-color: rgb(205, 243, 243);
     text-align: center;
-    margin:3px;
+   
     } 
 /* ラジオボタンが選択された際のスタイル */
 input[type="radio"].tab_m12:checked + label.distance {
@@ -308,7 +310,7 @@ input[type="radio"].tab_m12:checked + label.distance {
     margin: 5px 5px;
     width:400px;
     height: 300px;
-    padding: auto;
+    padding-top:0px ;
 }
 
 /* 長水路短水路のラベル */
@@ -317,7 +319,8 @@ p.course{
     background-color: rgb(163, 162, 162);
     font-size: 20px;
     text-align: center;
-    padding-top: 0;
+    margin-top: 0;
+
 }
 p.age{text-align: center;
     font-weight: bold;
