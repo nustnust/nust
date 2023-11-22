@@ -254,9 +254,9 @@ input[type="radio"].tab_m11 + label.style {
     padding: 10px 10px; /* ボタンのパディング */
     cursor: pointer;
     font-weight: bold;
-    width: 100px;
+    width: 70px;
     height: 20px;
-    font-size: 8px;
+    font-size: 7px;
     background-color: aqua;
 } 
 /* ラジオボタンが選択された際のスタイル */
@@ -284,9 +284,9 @@ input[type="radio"].tab_m12 + label.distance {
     padding: 10px 10px; /* ボタンのパディング */
     cursor: pointer;
     font-weight: bold;
-    width: 80px;
-    height: 20px;
-    font-size: 10px;
+    width: 50px;
+    height: 15px;
+    font-size: 7px;
     background-color: rgb(205, 243, 243);
     text-align: center;
     margin: 10px 0 ;
@@ -301,7 +301,7 @@ input[type="radio"].tab_m12:checked + label.distance {
 /* コンテンツサイズを変更 */
 .record_content{
     margin: 10px 0px;
-    width:800px;
+    width:400px;
     height: 300px;
     padding: auto;
 }
