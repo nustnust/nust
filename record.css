@@ -278,6 +278,7 @@ input[type="radio"].tab_m12 {
 }
 div.distance_label{
     text-align: center;
+    padding:0;
 
 }
 /* ラジオボタンのカスタムスタイル */
