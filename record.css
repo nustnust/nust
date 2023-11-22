@@ -255,7 +255,7 @@ p.age{text-align: center;
         font-weight: bold;
         width: 40px;
         height: 20px;
-        font-size: 8px;
+        font-size: 7px;
         background-color: aqua;
     } 
     /* ラジオボタンが選択された際のスタイル */
@@ -278,7 +278,7 @@ p.age{text-align: center;
     }
     /* ラジオボタンのカスタムスタイル */
     input[type="radio"].tab_m12 + label.distance {
-        display: block;
+        display: flex;
         border: 2px solid #000; /* 枠線のスタイル */
         padding: 10px 10px; /* ボタンのパディング */
         cursor: pointer;
@@ -288,7 +288,7 @@ p.age{text-align: center;
         font-size: 7px;
         background-color: rgb(205, 243, 243);
         text-align: center;
-        margin: 10px 0px ;
+        margin: 0px 0px ;
     } 
     /* ラジオボタンが選択された際のスタイル */
     input[type="radio"].tab_m12:checked + label.distance {
