@@ -332,7 +332,12 @@ p.age{text-align: center;
     font-size: 10px;
 }
     
+/* 長水路と短水路を右左に分割しない */
+.content_split{
+    display: block;
+    width:100%;
 
+}
 .long_course,
 .short_course{
     width:100%;
