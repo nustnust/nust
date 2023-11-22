@@ -263,6 +263,10 @@ input[type="radio"].tab_m11 + label.style {
     margin: 0px;
     align-items:center;
 } 
+
+label.style{
+    padding-top:5px;
+}
 /* ラジオボタンが選択された際のスタイル */
 input[type="radio"].tab_m11:checked + label.style {
     background-color: #a09c9c; /* 選択時の背景色 */
@@ -339,9 +343,9 @@ p.age{text-align: center;
 .long_course,
 .short_course{
     flex: 1;
-    width:35%;
+    width:30%;
     border:3px solid black;
-    margin: 0 5px;
+    margin: 3px;
     padding: 3px;
     padding-bottom: 20px;
 
