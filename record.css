@@ -303,7 +303,7 @@ input[type="radio"].tab_m12:checked + label.distance {
 
 /* コンテンツサイズを変更 */
 .record_content{
-    margin: 10px 0px;
+    margin: 5px 5px;
     width:400px;
     height: 300px;
     padding: auto;
@@ -313,8 +313,9 @@ input[type="radio"].tab_m12:checked + label.distance {
 p.course{
     font-weight: bold;
     background-color: rgb(163, 162, 162);
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
+    padding-top: 0;
 }
 p.age{text-align: center;
     font-weight: bold;
@@ -327,6 +328,7 @@ p.age{text-align: center;
 .content_split{
     display: flex;
     width:100%;
+
 }
 
 .long_course,
