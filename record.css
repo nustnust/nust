@@ -335,12 +335,12 @@ p.age{text-align: center;
 /* 長水路と短水路を右左に分割しない */
 .content_split{
     display: block;
-    width:100%;
+    width:90%;
 
 }
 .long_course,
 .short_course{
-    width:100%;
+    width:90%;
     border:3px solid black;
     margin: 3px;
     padding: 3px;
