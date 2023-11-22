@@ -96,6 +96,7 @@ nav.menubar{
     padding-left: 0;
 }
 
+
 /* 785p以下の端末の場合x */
 @media(max-width:785px){
 
@@ -162,17 +163,16 @@ nav.menubar{
     background-color: #4e4d4d; /* マウスホバー時の背景色 */
   }
 
-  li {font-size: 20px;}
+  li {font-size: 5px;}
 
 
 
 
   /* 活動実績 */
   table.ivent{border-collapse: collapse;
-    width: 80%;
     margin: 0 auto;
     margin-top: 20px;
-    width: 70%;
+    width: 90%;
   }
 
 
@@ -185,7 +185,7 @@ nav.menubar{
   .meidai_pool{
     display: block; /* インライン要素をブロック要素に変更 */
     margin: 0 auto; /* 左右のマージンを自動調整して中央揃え */
-    width: 50%;
+    width: 90%;
   }
 
   nav.menubar{
@@ -197,6 +197,3 @@ nav.menubar{
     padding-left: 0;
   }
 }
-
-
-
