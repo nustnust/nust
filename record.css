@@ -165,7 +165,7 @@ p.age{text-align: center;
 
 }
 
-
+/*-------------------------------------------------------------------------------------------------------------------------------------------  */
 
 @media(max-width:785px){
     
@@ -288,7 +288,7 @@ p.age{text-align: center;
         font-size: 7px;
         background-color: rgb(205, 243, 243);
         text-align: center;
-        margin: 10px 10px ;
+        margin: 10px 0px ;
     } 
     /* ラジオボタンが選択された際のスタイル */
     input[type="radio"].tab_m12:checked + label.distance {
