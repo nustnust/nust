@@ -228,6 +228,7 @@ h2 {
 tr,td{border: 1px solid black;
     padding: 8px;
     text-align: center;
+    font-size:7px;
    
 
 }
@@ -329,7 +330,7 @@ p.age{text-align: center;
 .long_course,
 .short_course{
     flex: 1;
-    width:40%;
+    width:35%;
     border:3px solid black;
     margin: 0 10px;
     padding: 10px;
