@@ -173,7 +173,7 @@ p.age{text-align: center;
 
 
 h1 {background-color: rgb(128, 183, 242);
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
@@ -215,7 +215,7 @@ li {font-size: 10px;}
 
 
 h2 {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 .standard_record{
