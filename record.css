@@ -254,9 +254,9 @@ input[type="radio"].tab_m11 + label.style {
     padding: 10px 10px; /* ボタンのパディング */
     cursor: pointer;
     font-weight: bold;
-    width: 70px;
+    width: 45px;
     height: 20px;
-    font-size: 7px;
+    font-size: 9px;
     background-color: aqua;
 } 
 /* ラジオボタンが選択された際のスタイル */
@@ -284,9 +284,9 @@ input[type="radio"].tab_m12 + label.distance {
     padding: 10px 10px; /* ボタンのパディング */
     cursor: pointer;
     font-weight: bold;
-    width: 50px;
+    width: 45px;
     height: 15px;
-    font-size: 7px;
+    font-size: 9px;
     background-color: rgb(205, 243, 243);
     text-align: center;
     margin: 10px 0 ;
