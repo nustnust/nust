@@ -311,14 +311,14 @@ input[type="radio"].tab_m12:checked + label.distance {
 p.course{
     font-weight: bold;
     background-color: rgb(163, 162, 162);
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
 }
 p.age{text-align: center;
     font-weight: bold;
     text-decoration: underline;
     background-color: rgb(240, 209, 152);
-    font-size: 25px;
+    font-size: 15px;
 }
   
 /* 長水路と短水路を右左に分割する */
@@ -332,7 +332,7 @@ p.age{text-align: center;
     flex: 1;
     width:45%;
     border:3px solid black;
-    margin: 0 10px;
+    margin: 0 5px;
     padding: 3px;
     padding-bottom: 20px;
 
