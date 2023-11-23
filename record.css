@@ -250,6 +250,7 @@ h2 {
     
 ul.standard_record{
     list-style-position:inside;
+     list-style-type: disc;
 }
  a.standard_record{
     display: block;
