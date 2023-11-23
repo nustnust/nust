@@ -223,17 +223,11 @@ h2 {
 ul.standard_record{
     list-style-position:inside;
 }
- li.standard_record a{
+ a.standard_record{
     display: block;
     text-align:left;
     font-size: 10px;
  }
-
-
-
-
-
-    
 
     
 table.record{border-collapse: collapse;
