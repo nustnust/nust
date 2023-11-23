@@ -305,6 +305,9 @@ input[type="radio"].tab_m12 + label.distance {
     line-height: 2
     } 
 
+input[type="radio"].tab_m12#medley_relay+ label.distance{
+    width:60px;
+}
     
 /* ラジオボタンが選択された際のスタイル */
 input[type="radio"].tab_m12:checked + label.distance {
