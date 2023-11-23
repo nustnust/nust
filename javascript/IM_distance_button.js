@@ -14,7 +14,7 @@ function IM_distance_100(){
     var IMContent_200 = document.getElementById("IM_200_content");
     var IMContent_400 = document.getElementById('IM_400_content');
  
-    IMContent_100.style.display = 'flex';
+    IMContent_100.style.display = 'block';
     IMContent_200.style.display = 'none';
     IMContent_400.style.display = 'none';
 
@@ -36,7 +36,7 @@ function IM_distance_200(){
     var IMContent_400 = document.getElementById('IM_400_content');
  
     IMContent_100.style.display = 'none';
-    IMContent_200.style.display = 'flex';
+    IMContent_200.style.display = 'block';
     IMContent_400.style.display = 'none';
 }
 
@@ -58,7 +58,7 @@ function IM_distance_400(){
  
     IMContent_100.style.display = 'none';
     IMContent_200.style.display = 'none';
-    IMContent_400.style.display = 'flex';
+    IMContent_400.style.display = 'block';
 
 }
 
