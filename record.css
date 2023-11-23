@@ -10,7 +10,7 @@ h1 {background-color: rgb(128, 183, 242);
 
 
 /* 誘導リスト */
-ul {
+ul.menubar {
     list-style-type: none; /* リストのマーカーを削除 */
     margin: 0;
     padding: 0;
@@ -19,11 +19,11 @@ ul {
     margin-top: 0;
   }
   
-  li {
+  li.menubar {
     float: left; /* メニューアイテムを横に並べる */
   }
   
-  li a {
+  li a.menueba {
     display: block;
     color: white;
     text-align: center;
