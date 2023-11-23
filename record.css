@@ -48,6 +48,7 @@ h2 {
 .standard_record{
     display: block;
     font-size: 20px;
+    text-align:center;
 }
 
 
@@ -222,6 +223,7 @@ h2 {
 .standard_record{
     display: block;
     font-size: 10px;
+    text-align:center;
 }
 
 
