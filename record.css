@@ -263,7 +263,7 @@ input[type="radio"].tab_m11 + label.style {
 } 
 input[type="radio"].tab_m11#fly+ label.style{
     width:60px;
-    font-size:10;
+    font-size:7;
 }
     
 
