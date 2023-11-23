@@ -184,7 +184,7 @@ h1 {background-color: rgb(128, 183, 242);
 
 
 /* 誘導リスト */
-ul {
+ul.menubar {
     list-style-type: none; /* リストのマーカーを削除 */
     margin: 0;
     padding: 0;
@@ -193,11 +193,11 @@ ul {
     margin-top: 0;
   }
   
-  li {
+  li.menubar {
     float: left; /* メニューアイテムを横に並べる */
   }
   
-  li a {
+  li a.menubar {
     display: block;
     color: white;
     text-align: center;
@@ -206,11 +206,11 @@ ul {
     font-family: 'Times New Roman', Times, serif;
   }
   
-  li a:hover {
+  li a.menubar:hover {
     background-color: #4e4d4d; /* マウスホバー時の背景色 */
   }
 /* メニューバー内の文字 */
-li {font-size: 10px;} 
+li.menubar {font-size: 10px;} 
    
  
 
