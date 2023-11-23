@@ -21,7 +21,7 @@ function fr_distance_50(){
     var freeContent_800= document.getElementById('fr_800_content');
     var freeContent_1500 = document.getElementById('fr_1500_content');
     
-    freeContent_50.style.display = 'flex';
+    freeContent_50.style.display = 'block';
     freeContent_100.style.display = 'none';
     freeContent_200.style.display = 'none';
     freeContent_400.style.display = 'none';
@@ -52,7 +52,7 @@ function fr_distance_100(){
     var freeContent_1500 = document.getElementById('fr_1500_content');
     
     freeContent_50.style.display = 'none';
-    freeContent_100.style.display = 'flex';
+    freeContent_100.style.display = 'block';
     freeContent_200.style.display = 'none';
     freeContent_400.style.display = 'none';
     freeContent_800.style.display = 'none';
@@ -83,7 +83,7 @@ function fr_distance_200(){
     
     freeContent_50.style.display = 'none';
     freeContent_100.style.display = 'none';
-    freeContent_200.style.display = 'flex';
+    freeContent_200.style.display = 'block';
     freeContent_400.style.display = 'none';
     freeContent_800.style.display = 'none';
     freeContent_1500.style.display = 'none';
@@ -116,7 +116,7 @@ function fr_distance_400(){
     freeContent_50.style.display = 'none';
     freeContent_100.style.display = 'none';
     freeContent_200.style.display = 'none';
-    freeContent_400.style.display = 'flex';
+    freeContent_400.style.display = 'block';
     freeContent_800.style.display = 'none';
     freeContent_1500.style.display = 'none';
 }
@@ -147,7 +147,7 @@ function fr_distance_800(){
     freeContent_100.style.display = 'none';
     freeContent_200.style.display = 'none';
     freeContent_400.style.display = 'none';
-    freeContent_800.style.display = 'flex';
+    freeContent_800.style.display = 'block';
     freeContent_1500.style.display = 'none';
 }
 function fr_distance_1500(){
@@ -177,7 +177,7 @@ function fr_distance_1500(){
     freeContent_200.style.display = 'none';
     freeContent_400.style.display = 'none';
     freeContent_800.style.display = 'none';
-    freeContent_1500.style.display = 'flex';
+    freeContent_1500.style.display = 'block';
 }
 
 
