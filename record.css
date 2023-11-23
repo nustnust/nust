@@ -144,8 +144,9 @@ p.course{
 p.age{text-align: center;
     font-weight: bold;
     text-decoration: underline;
-    background-color: rgb(240, 209, 152);
     font-size: 25px;
+    margin:3px;
+      
 }
   
 /* 長水路と短水路を右左に分割する */
