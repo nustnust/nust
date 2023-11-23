@@ -16,7 +16,7 @@ function relay_distance_200(){
     var relayContent_800 = document.getElementById("relay_800_content");
     var relayContent_medley = document.getElementById("medley_content");
 
-    relayContent_200.style.display = 'flex';
+    relayContent_200.style.display = 'block';
     relayContent_400.style.display = 'none';
     relayContent_800.style.display = 'none';
     relayContent_medley.style.display = 'none';
@@ -41,7 +41,7 @@ function relay_distance_400(){
     
  
     relayContent_200.style.display = 'none';
-    relayContent_400.style.display = 'flex';
+    relayContent_400.style.display = 'block';
     relayContent_800.style.display = 'none';
     relayContent_medley.style.display = 'none';
 }
@@ -66,7 +66,7 @@ function relay_distance_800(){
  
     relayContent_200.style.display = 'none';
     relayContent_400.style.display = 'none';
-    relayContent_800.style.display = 'flex';
+    relayContent_800.style.display = 'block';
     relayContent_medley.style.display ='none';
 }
 function medley_relay(){
@@ -90,5 +90,5 @@ function medley_relay(){
     relayContent_200.style.display = 'none';
     relayContent_400.style.display = 'none';
     relayContent_800.style.display = 'none';
-    relayContent_medley.style.display='flex';
+    relayContent_medley.style.display='block';
 }
