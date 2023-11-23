@@ -309,7 +309,7 @@ input[type="radio"].tab_m12:checked + label.distance {
     width:350px;
     height: 300px;
     padding-top:0px ;
-    margin-top:3px;
+    margin-top:1px;
 }
 
 /* 長水路短水路のラベル */
