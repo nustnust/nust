@@ -259,9 +259,7 @@ input[type="radio"].tab_m11 + label.style {
     margin: 0px;
 } 
 
-label.style{
-    text
-}
+
 /* ラジオボタンが選択された際のスタイル */
 input[type="radio"].tab_m11:checked + label.style {
     background-color: #a09c9c; /* 選択時の背景色 */
@@ -306,7 +304,6 @@ input[type="radio"].tab_m12:checked + label.distance {
 
 /* コンテンツサイズを変更 */
 .record_content{
-    margin: 5px 5px;
     width:350px;
     height: 300px;
     padding-top:0px ;
