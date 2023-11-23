@@ -212,25 +212,25 @@ ul.menubar {
 /* メニューバー内の文字 */
 li.menubar a {font-size: 10px;} 
 
-ul.standard_record{
-    list-style-position:inside;
-}
- li.standard_record
-    {
-        text-align:left;
-    }
-
-
 
 h2 {
     font-size: 20px;
     text-align: center;
 }
-.standard_record{
-    display: block;
-    font-size: 10px;
-    text-align:center;
+
+
+    
+ul.standard_record{
+    list-style-position:inside;
 }
+ li.standard_record
+    {
+         display: block;
+        text-align:left;
+         font-size: 10px;
+    }
+
+
 
 
 
