@@ -342,7 +342,7 @@ tr,td{border: 1px solid black;
 /* 長水路と短水路を右左に分割しない */
 .content_split{
     display: block;
-    width:98%;
+    width:96%;
 
 }
 .long_course,
