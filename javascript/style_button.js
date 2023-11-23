@@ -77,7 +77,7 @@ function change_style_breast()  {
     var brContent_100 = document.getElementById("br_100_content");
     var brContent_200 = document.getElementById('br_200_content');
  
-    brContent_50.style.display = 'flex';
+    brContent_50.style.display = 'block';
     brContent_100.style.display = 'none';
     brContent_200.style.display = 'none';
 
@@ -127,7 +127,7 @@ function change_style_fly() {
     var flyContent_100 = document.getElementById("fly_100_content");
     var flyContent_200 = document.getElementById('fly_200_content');
  
-    flyContent_50.style.display = 'flex';
+    flyContent_50.style.display = 'block';
     flyContent_100.style.display = 'none';
     flyContent_200.style.display = 'none';
 
@@ -177,7 +177,7 @@ function change_style_back() {
     var baContent_100 = document.getElementById("ba_100_content");
     var baContent_200 = document.getElementById('ba_200_content');
  
-    baContent_50.style.display = 'flex';
+    baContent_50.style.display = 'block';
     baContent_100.style.display = 'none';
     baContent_200.style.display = 'none';
     }
@@ -225,7 +225,7 @@ function change_style_IM() {
     var IMContent_200 = document.getElementById("IM_200_content");
     var IMContent_400 = document.getElementById('IM_400_content');
  
-    IMContent_100.style.display = 'flex';
+    IMContent_100.style.display = 'block';
     IMContent_200.style.display = 'none';
     IMContent_400.style.display = 'none';
     }
@@ -276,7 +276,7 @@ function change_style_relay() {
     var relayContent_800 = document.getElementById("relay_800_content");
     var relayContent_medley = document.getElementById("medley_content");
 
-    relayContent_200.style.display = 'flex';
+    relayContent_200.style.display = 'block';
     relayContent_400.style.display = 'none';
     relayContent_800.style.display = 'none';
     relayContent_medley.style.display = 'none';
