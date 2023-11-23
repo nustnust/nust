@@ -14,7 +14,7 @@ function fly_distance_50(){
     var flyContent_100 = document.getElementById("100_fly_content");
     var flyContent_200 = document.getElementById('200_fly_content');
  
-    flyContent_50.style.display = 'flex';
+    flyContent_50.style.display = 'block';
     flyContent_100.style.display = 'none';
     flyContent_200.style.display = 'none';
 
@@ -35,7 +35,7 @@ function fly_distance_100(){
     var flyContent_200 = document.getElementById('fly_200_content');
 
     flyContent_50.style.display = 'none';
-    flyContent_100.style.display = 'flex';
+    flyContent_100.style.display = 'block';
     flyContent_200.style.display = 'none';
 }
 
@@ -54,7 +54,7 @@ function fly_distance_200(){
 
     flyContent_50.style.display = 'none';
     flyContent_100.style.display = 'none';
-    flyContent_200.style.display = 'flex';
+    flyContent_200.style.display = 'block';
 }
 
 
