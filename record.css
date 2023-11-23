@@ -349,7 +349,8 @@ tr,td{border: 1px solid black;
 .short_course{
     width:98%;
     border:3px solid black;
-    margin: 3px;
+    margin-left: 3px;
+    margin-right:3px;
     padding: 3px;
     padding-bottom: 20px;
 
