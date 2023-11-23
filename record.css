@@ -299,8 +299,12 @@ input[type="radio"].tab_m12 + label.distance {
     background-color: rgb(205, 243, 243);
     vertical-align: middle;
     line-height: 2
-   
     } 
+input[type="radio"].tab_m12#fly{
+    width:60px;
+}
+    
+    
 /* ラジオボタンが選択された際のスタイル */
 input[type="radio"].tab_m12:checked + label.distance {
     background-color: #a09c9c; /* 選択時の背景色 */
