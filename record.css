@@ -347,7 +347,7 @@ tr,td{border: 1px solid black;
 }
 .long_course,
 .short_course{
-    width:98%;
+    width:100%;
     border:3px solid black;
     margin-left: 3px;
     margin-right:3px;
