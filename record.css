@@ -197,7 +197,7 @@ ul.menubar {
     float: left; /* メニューアイテムを横に並べる */
   }
   
-  li.menubar {
+  li.menubar a {
     display: block;
     color: white;
     text-align: center;
@@ -210,7 +210,7 @@ ul.menubar {
     background-color: #4e4d4d; /* マウスホバー時の背景色 */
   }
 /* メニューバー内の文字 */
-li.menubar {font-size: 10px;} 
+li.menubar a {font-size: 10px;} 
    
  
 
