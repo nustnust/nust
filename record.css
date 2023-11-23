@@ -197,7 +197,7 @@ ul.menubar {
     float: left; /* メニューアイテムを横に並べる */
   }
   
-  li a.menubar {
+  li.menubar {
     display: block;
     color: white;
     text-align: center;
@@ -206,7 +206,7 @@ ul.menubar {
     font-family: 'Times New Roman', Times, serif;
   }
   
-  li a.menubar:hover {
+  li.menubar:hover {
     background-color: #4e4d4d; /* マウスホバー時の背景色 */
   }
 /* メニューバー内の文字 */
