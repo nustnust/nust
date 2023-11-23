@@ -245,7 +245,10 @@ h2 {
     text-align: center;
 }
 
-
+div.reference
+{margin-left: 50px;
+    
+}
     
 ul.standard_record{
     list-style-position:inside;
@@ -389,6 +392,7 @@ tr,td{border: 1px solid black;
 .long_course,
 .short_course{
     width:100%;
+    border:3px solid black;
     margin-left: 3px;
     margin-right:3px;
     padding: 3px;
