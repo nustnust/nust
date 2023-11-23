@@ -261,7 +261,10 @@ input[type="radio"].tab_m11 + label.style {
     vertical-align: middle;
     line-height: 3
 } 
-
+input[type="radio"].tab_m11#fly{
+    width:60px;
+}
+    
 
 /* ラジオボタンが選択された際のスタイル */
 input[type="radio"].tab_m11:checked + label.style {
@@ -300,10 +303,7 @@ input[type="radio"].tab_m12 + label.distance {
     vertical-align: middle;
     line-height: 2
     } 
-input[type="radio"].tab_m12#fly{
-    width:60px;
-}
-    
+
     
 /* ラジオボタンが選択された際のスタイル */
 input[type="radio"].tab_m12:checked + label.distance {
