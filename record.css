@@ -211,8 +211,14 @@ ul.menubar {
   }
 /* メニューバー内の文字 */
 li.menubar a {font-size: 10px;} 
-   
- 
+
+ul.standard_record{
+    list-style-position:inside;
+}
+ li.standard_record
+    {
+        text-align:left;
+    }
 
 
 
