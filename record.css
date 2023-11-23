@@ -285,7 +285,8 @@ input[type="radio"].tab_m12 + label.distance {
     border: 2px solid #000; /* 枠線のスタイル */
     padding: 0px; /* ボタンのパディング */
     margin-right:1px;               /* 右側*/  
-    margin-bottom:4px;               /* 下側*/     
+    margin-bottom:4px; /* 下側*/
+    margin-left:0px;
     cursor: pointer;
     font-weight: bold;
     width: 40px;
