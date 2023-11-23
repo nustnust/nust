@@ -137,7 +137,7 @@ input[type="radio"].tab_m12:checked + label.distance {
 /* 長水路短水路のラベル */
 p.course{
     font-weight: bold;
-    background-color: rgb(163, 162, 162);
+     background: linear-gradient(to top, #3498db, #ffffff);
     font-size: 40px;
     text-align: center;
 }
