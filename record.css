@@ -23,7 +23,7 @@ ul.menubar {
     float: left; /* メニューアイテムを横に並べる */
   }
   
-  li a.menueba {
+  li a.menubar {
     display: block;
     color: white;
     text-align: center;
@@ -32,7 +32,7 @@ ul.menubar {
     font-family: 'Times New Roman', Times, serif;
   }
   
-  li a:hover {
+  li a.menubar:hover {
     background-color: #4e4d4d; /* マウスホバー時の背景色 */
   }
 
