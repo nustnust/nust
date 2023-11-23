@@ -307,6 +307,7 @@ input[type="radio"].tab_m12:checked + label.distance {
     width:350px;
     height: 300px;
     padding-top:0px ;
+    margin-top:3px;
 }
 
 /* 長水路短水路のラベル */
@@ -324,7 +325,7 @@ p.age{text-align: center;
     font-weight: bold;
     text-decoration: underline;
     font-size: 10px;
-    margin:3px;
+    margin:0px;
 }
 
 
