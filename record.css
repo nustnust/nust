@@ -258,6 +258,7 @@ input[type="radio"].tab_m11 + label.style {
     font-size: 8px;
     background-color: aqua;
     margin: 0px;
+    vertical-align: middle;
 } 
 
 
