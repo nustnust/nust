@@ -156,9 +156,23 @@ p.course{
     text-align: center;
     margin-top: 0;
     margin-bottom: 2px;
-    
 
 }
+
+p.course_woman{
+    font-weight: bold;
+    background: linear-gradient(to top, #f36447, #ffffff);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2px;
+
+}
+
+
+
+
+
 p.age{text-align: center;
     font-weight: bold;
     text-decoration: underline;
