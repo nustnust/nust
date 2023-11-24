@@ -35,7 +35,7 @@ ul.menubar {
     background-color: #4e4d4d; /* マウスホバー時の背景色 */
   }
 /* メニューバー内の文字 */
-li.menubar a {font-size: 40px;} 
+li.menubar a {font-size: 20px;} 
 
 
 h2 {
