@@ -174,7 +174,11 @@ tr,td{border: 2px solid black;
     font-size:30px;
 }
 
-    
+
+th{
+    background-color:rgb(195, 191, 191);
+}
+
 /* 長水路と短水路を右左に分割しない */
 .content_split{
     display: block;
@@ -183,9 +187,9 @@ tr,td{border: 2px solid black;
 }
 .long_course,
 .short_course{
-    width:100%;
-    margin-left: 20px;
-    margin-right:20px;
+    width:60%;
+    margin-left: 300px;
+    margin-right:100px;
     margin-top: 20px;
     padding: 30px;
     padding-bottom: 30px;
