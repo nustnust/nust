@@ -1,217 +1,250 @@
-
 h1 {background-color: rgb(128, 183, 242);
-    font-size: 50px;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+
 }
 
+/* 初めの文 */
+.start{background-color: white;
+  margin: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+/* div.image_and_twitter{
+
+display: flex;
+}
+
+img.meidai_pool{
+flex: 1;
+width:100px;
+
+height: 300px;
+}
+
+div.twitter-timeline
+{
+flex:1;
+width:200px;
+height: 100px;
+} */
 
 
 /* 誘導リスト */
-ul.menubar {
-    list-style-type: none; /* リストのマーカーを削除 */
-    margin: 0;
-    padding: 0;
-    background-color: #333; /* メニューバーの背景色 */
-    overflow: hidden;
-    margin-top: 0;
-  }
-  
-  li.menubar {
-    float: left; /* メニューアイテムを横に並べる */
-  }
-  
-  li.menubar a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  
-  li.menubar:hover {
-    background-color: #4e4d4d; /* マウスホバー時の背景色 */
-  }
-/* メニューバー内の文字 */
-li.menubar a {font-size: 20px;} 
-
-
-h2 {
-    font-size: 40px;
-    text-align: center;
+ul {
+  list-style-type: none; /* リストのマーカーを削除 */
+  margin: 0;
+  padding: 0;
+  background-color: #333; /* メニューバーの背景色 */
+  overflow: hidden;
+  margin-top: 0;
 }
 
-
-div.reference
-{margin-left: 300px;
-    
-}
-ul.standard_record{
-    list-style-position:inside;
-}
- a.standard_record{
-    display: block;
-    text-align:left;
-    font-size: 30px;
- }
-
-
-    
-table.record{border-collapse: collapse;
-    width: 100%;
-    margin: 0 0;
-    margin-top: 5px;
-}
-div.bottun{
-    text-align: center;
+li {
+  float: left; /* メニューアイテムを横に並べる */
 }
 
-
-
-
-/* ラジオボタンの非表示 */
-input[type="radio"].tab_m11 {
-    display: none;
-}
-/* ラジオボタンのカスタムスタイル */
-input[type="radio"].tab_m11 + label.style {
-    display: inline-block;
-    border: 5px solid #000; /* 枠線のスタイル */
-    padding: 0px; /* ボタンのパディング */
-    cursor: pointer;
-    font-weight: bold;
-    width: 180px;
-    height: 80px;
-    font-size: 30px;
-    background-color: aqua;
-    margin: 0px;
-    vertical-align: middle;
-    line-height: 3
-} 
-
-    
-
-/* ラジオボタンが選択された際のスタイル */
-input[type="radio"].tab_m11:checked + label.style {
-    background-color: #a09c9c; /* 選択時の背景色 */
-    color: #0f0e0e; /* 選択時のテキスト色 */
-    /* その他のスタイルを追加 */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-
-/*距離を決めるラジオボタン*/
-
-/* ラジオボタンの非表示 */
-input[type="radio"].tab_m12 {
-    display: none;
-}
-div.distance_label{
-    text-align: center;
-    padding:0;
-
-}
-/* ラジオボタンのカスタムスタイル */
-input[type="radio"].tab_m12 + label.distance {
-    display: inline-block;
-    border: 4px solid #000; /* 枠線のスタイル */
-    padding: 0px; /* ボタンのパディング */
-    margin-right:2px;               /* 右側*/  
-    margin-bottom:5px; /* 下側*/
-    margin-left:10px;
-    margin-top:20px;
-    cursor: pointer;
-    font-weight: bold;
-    width: 150px;
-    height: 70px;
-    font-size: 30px;
-    background-color: rgb(205, 243, 243);
-    vertical-align: middle;
-    line-height: 2.5
-    } 
-
-
-    
-/* ラジオボタンが選択された際のスタイル */
-input[type="radio"].tab_m12:checked + label.distance {
-    background-color: #a09c9c; /* 選択時の背景色 */
-    color: #0f0e0e; /* 選択時のテキスト色 */
-    /* その他のスタイルを追加 */
+li a:hover {
+  background-color: #4e4d4d; /* マウスホバー時の背景色 */
 }
 
-/* コンテンツサイズを変更 */
-.record_content{
-    width:94%;
-    padding-top:0px ;
-    margin-top:2px;
-
-}
-
-/* 長水路短水路のラベル */
-p.course{
-    font-weight: bold;
-    background: linear-gradient(to top, #3498db, #ffffff);
-    font-size: 40px;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 2px;
-    
-
-}
-p.age{text-align: center;
-    font-weight: bold;
-    text-decoration: underline;
-    font-size: 30px;
-    margin:0px;
-    margin-top:8px;
-}
+li {font-size: 20px;}
 
 
-tr,td{border: 2px solid black;
-    padding: 2px;
-    text-align: center;
-    font-size:30px;
-}
 
-    
-/* 長水路と短水路を右左に分割しない */
-.content_split{
-    display: block;
-    width:100%;
 
-}
-.long_course,
-.short_course{
-    width:100%;
-    margin-left: 20px;
-    margin-right:20px;
-    margin-top: 20px;
-    padding: 30px;
-    padding-bottom: 30px;
+/* 活動実績 */
+table.ivent{border-collapse: collapse;
+  width: 800px;
+  margin: auto;
+  margin-top:20px;
 
 }
 
 
+tr,td{border: 1px solid black;
+  padding: 8px;
+  font-size: 20px;
+}
 
-/*-------------------------------------------------------------------------------------------------------------------------------------------  */
+td{text-align: center;}
 
+.meidai_pool{
+  display: block; /* インライン要素をブロック要素に変更 */
+  margin: 0 auto; /* 左右のマージンを自動調整して中央揃え */
+  width: 50%;
+}
+
+nav.menubar{
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  list-style-position:inside;
+  background-color: skyblue;
+  padding-left: 0;
+}
+
+
+/* 785p以下の端末の場合x */
 @media(max-width:785px){
-    
-
-
 
 h1 {background-color: rgb(128, 183, 242);
-    font-size: 30px;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+
+}
+
+/* 初めの文 */
+.start{background-color: white;
+  margin: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/* div.image_and_twitter{
+
+display: flex;
+}
+
+img.meidai_pool{
+flex: 1;
+width:100px;
+
+height: 300px;
+}
+
+div.twitter-timeline
+{
+flex:1;
+width:200px;
+height: 100px;
+} */
+
+
+/* 誘導リスト */
+ul {
+  list-style-type: none; /* リストのマーカーを削除 */
+  margin: 0;
+  padding: 0;
+  background-color: #333; /* メニューバーの背景色 */
+  overflow: hidden;
+  margin-top: 0;
+}
+
+li {
+  float: left; /* メニューアイテムを横に並べる */
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px 8px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+li a:hover {
+  background-color: #4e4d4d; /* マウスホバー時の背景色 */
+}
+
+li {font-size: 10px;}
+
+
+
+
+/* 活動実績 */
+table.ivent{border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 90%;
+}
+
+
+tr,td{border: 1px solid black;
+  padding: 4px;
+}
+
+td{text-align: center;
+font-size: 7px;}
+
+.meidai_pool{
+  display: block; /* インライン要素をブロック要素に変更 */
+  margin: 0 auto; /* 左右のマージンを自動調整して中央揃え */
+  width: 90%;
+}
+
+nav.menubar{
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  list-style-position:inside;
+  background-color: skyblue;
+  padding-left: 0;
+}
 }
 
 
 
-/* 誘導リスト */
-ul.menubar {
+/* -------------------------------------------------------------------------------- */
+@media(max-width: 785px;){
+
+  h1 {background-color: rgb(128, 183, 242);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  
+  }
+  
+  /* 初めの文 */
+  .start{background-color: white;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  
+  
+  /* div.image_and_twitter{
+  
+  display: flex;
+  }
+  
+  img.meidai_pool{
+  flex: 1;
+  width:100px;
+  
+  height: 300px;
+  }
+  
+  div.twitter-timeline
+  {
+  flex:1;
+  width:200px;
+  height: 100px;
+  } */
+  
+  
+  /* 誘導リスト */
+  ul {
     list-style-type: none; /* リストのマーカーを削除 */
     margin: 0;
     padding: 0;
@@ -220,11 +253,11 @@ ul.menubar {
     margin-top: 0;
   }
   
-  li.menubar {
+  li {
     float: left; /* メニューアイテムを横に並べる */
   }
   
-  li.menubar a {
+  li a {
     display: block;
     color: white;
     text-align: center;
@@ -233,171 +266,44 @@ ul.menubar {
     font-family: 'Times New Roman', Times, serif;
   }
   
-  li.menubar:hover {
+  li a:hover {
     background-color: #4e4d4d; /* マウスホバー時の背景色 */
   }
-/* メニューバー内の文字 */
-li.menubar a {font-size: 10px;} 
-
-
-h2 {
-    font-size: 20px;
-    text-align: center;
-}
-
-div.reference
-{margin-left: 50px;
-    
-}
-    
-ul.standard_record{
-    list-style-position:inside;
-}
- a.standard_record{
-    display: block;
-    text-align:left;
-    font-size: 10px;
- }
-
-    
-table.record{border-collapse: collapse;
+  
+  li {font-size: 10px;}
+  
+  
+  
+  
+  /* 活動実績 */
+  table.ivent{border-collapse: collapse;
     width: 100%;
-    margin: 0 0;
-    margin-top: 2px;
-}
-div.bottun{
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  
+  tr,td{border: 1px solid black;
+    padding: 8px;
+    font-size: 30px;
+  }
+  
+  td{text-align: center;}
+  
+  .meidai_pool{
+    display: block; /* インライン要素をブロック要素に変更 */
+    margin: 0 auto; /* 左右のマージンを自動調整して中央揃え */
+    width: 50%;
+  }
+  
+  nav.menubar{
     text-align: center;
-}
-
-
-
-
-/* ラジオボタンの非表示 */
-input[type="radio"].tab_m11 {
-    display: none;
-}
-/* ラジオボタンのカスタムスタイル */
-input[type="radio"].tab_m11 + label.style {
-    display: inline-block;
-    border: 2px solid #000; /* 枠線のスタイル */
-    padding: 0px; /* ボタンのパディング */
-    cursor: pointer;
     font-weight: bold;
-    width: 50px;
-    height: 40px;
-    font-size: 15px;
-    background-color: aqua;
-    margin: 0px;
-    vertical-align: middle;
-    line-height: 3
-} 
-input[type="radio"].tab_m11#fly+ label.style{
-    width:60px;
-    font-size:12px;
-    vertical-align: middle;
-    line-height: 3.5
-}
-    
-
-/* ラジオボタンが選択された際のスタイル */
-input[type="radio"].tab_m11:checked + label.style {
-    background-color: #a09c9c; /* 選択時の背景色 */
-    color: #0f0e0e; /* 選択時のテキスト色 */
-    /* その他のスタイルを追加 */
-}
-
-
-/*距離を決めるラジオボタン*/
-
-/* ラジオボタンの非表示 */
-input[type="radio"].tab_m12 {
-    display: none;
-}
-div.distance_label{
-    text-align: center;
-    padding:0;
-
-}
-/* ラジオボタンのカスタムスタイル */
-input[type="radio"].tab_m12 + label.distance {
-    display: inline-block;
-    border: 2px solid #000; /* 枠線のスタイル */
-    padding: 0px; /* ボタンのパディング */
-    margin-right:1px;               /* 右側*/  
-    margin-bottom:4px; /* 下側*/
-    margin-left:0px;
-    margin-top:0px;
-    cursor: pointer;
-    font-weight: bold;
-    width: 40px;
-    height: 30px;
-    font-size: 14px;
-    background-color: rgb(205, 243, 243);
-    vertical-align: middle;
-    line-height: 2
-    } 
-
-input[type="radio"].tab_m12#medley_relay+ label.distance{
-    width:60px;
-}
-    
-/* ラジオボタンが選択された際のスタイル */
-input[type="radio"].tab_m12:checked + label.distance {
-    background-color: #a09c9c; /* 選択時の背景色 */
-    color: #0f0e0e; /* 選択時のテキスト色 */
-    /* その他のスタイルを追加 */
-}
-
-/* コンテンツサイズを変更 */
-.record_content{
-    width:350px;
-    height: 300px;
-    padding-top:0px ;
-    margin-top:1px;
-}
-
-/* 長水路短水路のラベル */
-p.course{
-    font-weight: bold;
-    background: linear-gradient(to top, #3498db, #ffffff);
-    font-size: 20px;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 1px;
-    
-
-}
-p.age{text-align: center;
-    font-weight: bold;
-    text-decoration: underline;
-    font-size: 10px;
-    margin:0px;
-    margin-top:4px;
-}
-
-
-tr,td{border: 1px solid black;
-    padding: 1px;
-    text-align: center;
-    font-size:10px;
-}
-
-    
-/* 長水路と短水路を右左に分割しない */
-.content_split{
-    display: block;
-    width:96%;
-
-}
-.long_course,
-.short_course{
-    width:100%;
-    border:3px solid black;
-    margin-left: 3px;
-    margin-right:3px;
-    padding: 3px;
-    padding-bottom: 20px;
-
-}
-
+    font-size: 50px;
+    list-style-position:inside;
+    background-color: skyblue;
+    padding-left: 0;
+  }
+  
+  
 }
