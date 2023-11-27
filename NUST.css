@@ -134,16 +134,16 @@ div.image_and_twitter{
   
   img.meidai_pool{
   flex: 2;
-  width:100px;
+  width:200px;
   height: 200px;
-  margin-left: 75px;
-  margin-right: 50px;
+  margin-left: 30px;
+  margin-right: 200px;
   }
   
   div.twitter-timeline
   {
   flex:1;
-  width:100px;
+  width:200px;
   height: 30px;
   margin-right: 50px;
   }  
