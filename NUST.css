@@ -15,24 +15,30 @@ h1 {background-color: rgb(128, 183, 242);
 }
 
 
-/* div.image_and_twitter{
+div.image_and_twitter{
 
 display: flex;
+margin-bottom: 50px;
 }
 
 img.meidai_pool{
-flex: 1;
-width:100px;
-
-height: 300px;
+flex: 2;
+width:10px;
+height: 400px;
+margin-left: 150px;
+margin-right: 100px;
 }
 
 div.twitter-timeline
 {
 flex:1;
 width:200px;
-height: 100px;
-} */
+height: 60px;
+margin-right: 100px;
+}
+
+
+
 
 
 /* 誘導リスト */
@@ -119,24 +125,29 @@ h1 {background-color: rgb(128, 183, 242);
 }
 
 
-/* div.image_and_twitter{
 
-display: flex;
-}
+div.image_and_twitter{
 
-img.meidai_pool{
-flex: 1;
-width:100px;
+  display: flex;
+  margin-bottom: 50px;
+  }
+  
+  img.meidai_pool{
+  flex: 2;
+  width:100px;
+  height: 200px;
+  margin-left: 75px;
+  margin-right: 50px;
+  }
+  
+  div.twitter-timeline
+  {
+  flex:1;
+  width:100px;
+  height: 30px;
+  margin-right: 50px;
+  }  
 
-height: 300px;
-}
-
-div.twitter-timeline
-{
-flex:1;
-width:200px;
-height: 100px;
-} */
 
 
 /* 誘導リスト */
