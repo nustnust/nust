@@ -123,21 +123,20 @@ h1 {background-color: rgb(128, 183, 242);
 
 
   
-  img.meidai_pool{
-  display:block;
-  width:400px;
-  height: 200px;
-  margin-left: 20px;
-  margin-right: 20px;
-  }
-  
-  div.twitter-timeline
-  {
-  display:block;
-  width:200px;
-  height: 30px;
-  font-size:7px;
-  }  
+img.meidai_pool{
+display:block;
+width:400px;
+height: 200px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+div.twitter-timeline
+{
+display:block;
+width:200px;
+height: 30px;
+}  
 
 
 
