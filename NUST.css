@@ -89,11 +89,6 @@ tr,td{border: 1px solid black;
 
 td{text-align: center;}
 
-.meidai_pool{
-  display: block; /* インライン要素をブロック要素に変更 */
-  margin: 0 auto; /* 左右のマージンを自動調整して中央揃え */
-  width: 50%;
-}
 
 nav.menubar{
   text-align: center;
@@ -137,7 +132,7 @@ div.image_and_twitter{
   width:200px;
   height: 200px;
   margin-left: 30px;
-  margin-right: 200px;
+  margin-right: 20px;
   }
   
   div.twitter-timeline
@@ -197,11 +192,6 @@ tr,td{border: 1px solid black;
 td{text-align: center;
 font-size: 7px;}
 
-.meidai_pool{
-  display: block; /* インライン要素をブロック要素に変更 */
-  margin: 0 auto; /* 左右のマージンを自動調整して中央揃え */
-  width: 90%;
-}
 
 nav.menubar{
   text-align: center;
