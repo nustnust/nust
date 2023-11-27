@@ -121,26 +121,21 @@ h1 {background-color: rgb(128, 183, 242);
 
 
 
-div.image_and_twitter{
 
-  display: flex;
-  margin-bottom: 50px;
-  }
   
   img.meidai_pool{
-  flex: 2;
-  width:200px;
+  display:block;
+  width:400px;
   height: 200px;
-  margin-left: 30px;
+  margin-left: 20px;
   margin-right: 20px;
   }
   
   div.twitter-timeline
   {
-  flex:1;
+  display:block;
   width:200px;
   height: 30px;
-  margin-right: 3px;
   font-size:7px;
   }  
 
