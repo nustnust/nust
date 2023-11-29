@@ -137,14 +137,12 @@ div.image_and_twitter{
   margin-right: 10px;
   }
   
-  div.twitter
-  {
-  flex:1;
-  width:100px;
-  height: 3000px;
-  margin-right: 50px;
-  font-size: 20px;
-  }  
+div#twitter
+{
+  text-align: center;
+  font-size: 150%;
+  margin-right: 10%;
+}
 
 
 
