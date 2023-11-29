@@ -22,19 +22,19 @@ margin-bottom: 50px;
 }
 
 img.meidai_pool{
-
-width:200px;
-height: 400px;
-margin-left: 150px;
-margin-right:20px;
-
+flex: 2;
+height: 80%;
+margin-left: 10%;
+margin-right: 3%;
 }
 
 
 
 div#twitter
 {
-  margin-right: 50px;
+  text-align: center;
+  font-size: 150%;
+  margin-right: 10%;
 }
 
 
@@ -72,7 +72,7 @@ li {font-size: 20px;}
 
 /* 活動実績 */
 table.ivent{border-collapse: collapse;
-  width: 800px;
+  width: 80%;
   margin: auto;
   margin-top:20px;
 
@@ -86,7 +86,11 @@ tr,td{border: 1px solid black;
 
 td{text-align: center;}
 
-
+.meidai_pool{
+  display: block; /* インライン要素をブロック要素に変更 */
+  margin: 0 auto; /* 左右のマージンを自動調整して中央揃え */
+  width: 50%;
+}
 
 nav.menubar{
   text-align: center;
@@ -141,10 +145,6 @@ div.image_and_twitter{
   margin-right: 50px;
   font-size: 20px;
   }  
-  div#twitter
-{
-  margin-right: 10px;
-}
 
 
 
