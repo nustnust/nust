@@ -85,11 +85,7 @@ tr,td{border: 1px solid black;
 
 td{text-align: center;}
 
-.meidai_pool{
-  display: block; /* インライン要素をブロック要素に変更 */
-  margin: 0 auto; /* 左右のマージンを自動調整して中央揃え */
-  width: 50%;
-}
+
 
 nav.menubar{
   text-align: center;
