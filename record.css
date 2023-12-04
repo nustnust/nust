@@ -82,7 +82,7 @@ input[type="radio"].tab_m11 + label.style {
     padding: 0px; /* ボタンのパディング */
     cursor: pointer;
     font-weight: bold;
-    width: 250px;
+    width: 200px;
     height: 80px;
     font-size: 30px;
     background-color: aqua;
@@ -201,7 +201,7 @@ th{
 }
 .long_course,
 .short_course{
-    width:60%;
+    width:80%;
     margin-left: 300px;
     margin-right:100px;
     margin-top: 20px;
